@@ -1,0 +1,162 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff; /* White background */
+  color: #333; /* Dark text color */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f8f8f8; /* Light gray background */
+  padding: 1em 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #333; /* Dark text color */
+}
+
+nav a {
+  color: #333; /* Dark text color */
+  text-decoration: none;
+  margin: 0 1em;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #666; /* Medium gray color on hover */
+}
+
+main {
+  padding: 2em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+section h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  color: #333; /* Dark text color */
+}
+
+footer {
+  background-color: #f8f8f8; /* Light gray background */
+  padding: 1em 0;
+  text-align: center;
+}
+
+footer a {
+  color: #333; /* Dark text color */
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+footer a:hover {
+  color: #666; /* Medium gray color on hover */
+}
+
+/* Add this to your CSS file */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* This centers the image horizontally */
+}
+/* Add this to your CSS file */
+.half-width {
+  width: 50%;
+  float: left;
+}
+
+/* Add this to your CSS file */
+footer {
+  position: fixed;
+  bottom: 20px; /* Adjust as needed */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%);
+}
+
+/* Add this to your CSS file */
+.half-width {
+  width: 50%;
+}
+
+/* Add this to your CSS file */
+body {
+  font-family: "Roboto", sans-serif; /* Example font: Roboto */
+}
+
+h1,
+h2,
+p,
+nav a {
+  font-family: "Montserrat", sans-serif; /* Example font: Montserrat */
+}
+
+.project img {
+  width: 50%;
+  float: left; /* To make the images stick to the left side */
+  margin-right: 20px; /* Add some spacing between images */
+}
+
+/* Clear the float to prevent layout issues */
+.project::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.project-link {
+  color: inherit; /* This inherits the color from the parent element */
+  text-decoration: underline; /* Add underline to links */
+}
+
+.project-link:hover {
+  color: inherit; /* This inherits the color from the parent element */
+}
+
+/* Add this CSS to your style.css file */
+.dakine-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dakine-images img {
+  width: auto; /* Set width to auto to maintain aspect ratio */
+  max-height: 300px; /* Set a maximum height to prevent excessive stretching */
+}
+
+/* Add this CSS to your style.css file */
+.project {
+  margin-bottom: 40px; /* Add more space between projects */
+}
+
+/* Add this CSS to your style.css file */
+.centered-image {
+  width: 50%; /* Set image width to 50% of the screen */
+  display: block; /* Set image to block element to center it */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Add this CSS to your style.css file */
+.photoshop-images {
+  display: flex; /* Use flexbox for layout */
+}
+
+.photoshop-images img {
+  max-width: 50%; /* Ensure image maintains its original aspect ratio */
+  height: 40em; /* Allow the height to adjust accordingly */
+  margin-right: 10px; /* Add some margin between images */
+}
+
+/* Add this CSS to your style.css file */
+.project:nth-child(4) img {
+  max-width: 100%; /* Set maximum width to 100% */
+  height: auto; /* Allow the height to adjust accordingly */
+  display: block; /* Ensure images are displayed as block elements */
+  margin: 0 auto; /* Center the images horizontally */
+}
